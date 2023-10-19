@@ -8,10 +8,10 @@ export default ({ mode }) => {
             host: '0.0.0.0',
             hmr: {
                 host: process.env.VITE_APP_HOST,
-                clientPort: 5174,
+                clientPort: 5173,
                 protocol: 'ws',
             },
-            port: 5174,
+            port: 5173,
             watch: {
                 usePolling: true,
             }
